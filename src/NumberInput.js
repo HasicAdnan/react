@@ -1,8 +1,16 @@
-import {useState} from "react";
+import {useEffect, useState} from "react";
 
 export const NumberInput = (props) => {
 
     const [zahl, setZahl] = useState(20)
+
+    useEffect(() => {
+        console.log ("useEffect is running");
+
+    }, [zahl]);
+
+
+
      
     return (
 
