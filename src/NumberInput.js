@@ -17,7 +17,7 @@ export const NumberInput = (props) => {
                 }
             }/>
             <p>Hier soll die Nummer stehen: {zahl}</p>
-            <p>Das 3-fache der Zahl ist: {zahl * 3}</p>ss
+            <p>Das 3-fache der Zahl ist: {zahl * 3}</p>
         </div>
     )
 }
